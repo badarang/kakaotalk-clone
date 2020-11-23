@@ -1,0 +1,41 @@
+.alt-header {
+    position: sticky;
+    top: 20px;
+    z-index: 2;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__chat {
+    background-color: #abc1d1;
+}
+.bar__chat {
+    background-color: #abc1d1;
+}
+.alt-header__column {
+    width: 33%;
+}
+.alt-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+.alt-header__someone {
+    font-size: 21px;
+    font-weight: 600;
+}
+.alt-header__column:first-child {
+    margin-right: auto;
+}
+.alt-header__column:last-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+.alt-header__column span:last-child {
+    margin-left: 20px;
+}
